@@ -8,6 +8,13 @@ body {
   margin-top: -5px;
 }
 
+.navbar.navbar-dark {
+  background: #383838;
+  background: -moz-linear-gradient(45deg,  #383838 0%, #8400d8 100%);
+  background: -webkit-linear-gradient(45deg,  #383838 0%,#8400d8 100%);
+  background: linear-gradient(45deg,  #383838 0%,#8400d8 100%);
+}
+
 h1 {
   font-size: 1.25rem;
   font-weight: 700;
@@ -15,6 +22,7 @@ h1 {
 
 textarea {
   width: 100%;
+  min-height: 300px;
 }
 
 /* Text Editor */
